@@ -3,12 +3,14 @@ import ReactDOM from 'react-dom'
 // import { mount } from 'enzyme'
 import Calculator from '@kevinorriss/calculator'
 
-test('renders without crashing', () => {
-    const div = document.createElement('div')
-    ReactDOM.render(<Calculator />, div)
+let wrappper
+beforeEach(() => {
+    wrappper = mount(<Calculator />)
 })
 
-// test('Should render boilerplate text', () => {
-//     const wrapper = mount(<Boilerplate />)
-//     expect(wrapper.text()).toEqual('Boilerplate React component')
-// })
+// Should accept 0-9 keyboard presses
+// Should reject A-Z keyboard presses
+// Should accept decimal character keyboard press
+// Should accept 0-9 after decimal
+// Should reject multiple decimal characters
+// 

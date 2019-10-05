@@ -1,0 +1,96 @@
+.calculator {
+    display: flex;
+    flex-direction: column;
+    min-width: 15rem;
+    max-width: 40rem;
+}
+
+.calculator .display {
+    background-color: #ffffff;
+    border: 1px solid black;
+    height: 0;
+    padding-top: 12.5%;
+    position: relative;
+}
+
+.calculator .display--inner {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    left:0px;
+    padding: 0 1rem;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+}
+
+.calculator .display--value {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    font-size: 1rem;
+    font-weight: bold;
+    justify-content: center;
+    margin: 0;
+    overflow: hidden;
+    text-align: right;
+}
+
+.calculator .keypad {
+    border-collapse: separate;
+    border-spacing: 0.2rem;
+    flex: 1 1 auto;
+}
+
+.calculator .keypad .button {
+    border: 1px solid black;
+    color: black;
+    font-weight: bold;
+    height: 0;
+    padding-top: 10%;
+    position: relative;
+    text-align: center;
+}
+
+.calculator .keypad .button:hover {
+    cursor: pointer;
+}
+
+.calculator .keypad .button div {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    left:0px;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+}
+
+.calculator .keypad .button--control {
+    background-color: #DDD;
+}
+
+.calculator .keypad .button--control:hover {
+    background-color: #CCC;
+}
+
+.calculator .keypad .button--operator {
+    background-color: #EEE;
+}
+
+.calculator .keypad .button--operator:hover {
+    background-color: #DDD;
+}
+
+.calculator .keypad .button--number:hover {
+    background-color: #F6F6F6;
+}
+
+.calculator .keypad .button--control-equals {
+    background-color: orange;
+}
+
+.calculator .keypad .button--control-equals:hover {
+    background-color: darkorange;
+}

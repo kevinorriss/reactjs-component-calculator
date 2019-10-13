@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render OperatorKey correctly 1`] = `
+<div
+  className="button button--operator"
+  onClick={[Function]}
+>
+  <div>
+    +
+  </div>
+</div>
+`;

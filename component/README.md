@@ -1,18 +1,15 @@
 # Boilerplate Component
 
-A boilerplate React component project for development and testing before publishing to NPM
+A simple calculator component with the basic operations
 
 ## Prerequisites
 
-This component makes use of Bootstrap 4 class names, install bootstrap to your project or apply your own styles to the class names.
-
-* [Bootstrap v4.3](http://www.dropwizard.io/1.0.2/docs/) - Front-end component library
 * [React ^16.9.0](https://reactjs.org/) - Javascript library for user interfaces
 
 ## Installing
 
 ```
-npm install @kevinorriss/boilerplate
+npm install @kevinorriss/calculator
 ```
 
 ## Usage
@@ -20,13 +17,13 @@ npm install @kevinorriss/boilerplate
 Import the component
 
 ```
-import Boilerplate from '@kevinorriss/boilerplate'
+import Calculator from '@kevinorriss/calculator'
 
 ...
 
 <!-- JSX -->
 <div className="your-container">
-    <Boilerplate />
+    <Calculator />
 </div>
 ```
 
@@ -40,7 +37,7 @@ cd ./component
 yarn link
 
 cd ..
-yarn link @kevinorriss/boilerplate
+yarn link @kevinorriss/calculator
 ```
 
 ### Start the app
@@ -62,8 +59,6 @@ yarn test
 ```
 
 This project uses Jest and Enzyme for its unit tests, simply run the above code to run the test suites.
-
-If you want the tests to run during development, you will need to have rollup watching too!
 
 ## Author
 

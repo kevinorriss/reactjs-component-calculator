@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render ControlKey correctly 1`] = `
+<div
+  className="button button--control button--control-equals"
+  onClick={[Function]}
+>
+  <div>
+    C
+  </div>
+</div>
+`;

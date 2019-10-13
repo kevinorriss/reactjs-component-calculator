@@ -1,4 +1,4 @@
-# Boilerplate Component
+# Calculator
 
 A simple calculator component with the basic operations
 

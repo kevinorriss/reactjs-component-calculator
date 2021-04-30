@@ -4,7 +4,6 @@ import ControlKey from './components/ControlKey'
 import NumberKey from './components/NumberKey'
 import OperatorKey from './components/OperatorKey'
 import './styles.css'
-import { trimExt } from 'upath'
 
 class Calculator extends React.Component {
     constructor(props) {

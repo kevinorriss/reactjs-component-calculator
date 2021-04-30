@@ -1,6 +1,4 @@
 .calculator {
-    display: flex;
-    flex-direction: column;
     min-width: 15rem;
     max-width: 40rem;
 }
@@ -11,6 +9,7 @@
     height: 0;
     padding-top: 12.5%;
     position: relative;
+    margin: 0 0.2rem;
 }
 
 .calculator .display--inner {
@@ -39,7 +38,7 @@
 .calculator .keypad {
     border-collapse: separate;
     border-spacing: 0.2rem;
-    flex: 1 1 auto;
+    width: 100%;
 }
 
 .calculator .keypad td {
@@ -84,6 +83,10 @@
 
 .calculator .keypad .button--operator:hover div {
     background-color: #DDD;
+}
+
+.calculator .keypad .button--number div {
+    background-color: white;
 }
 
 .calculator .keypad .button--number:hover div {

@@ -1,7 +1,6 @@
 import babel from '@rollup/plugin-babel'
 import { nodeResolve } from '@rollup/plugin-node-resolve'
-import commonjs from '@rollup/plugin-commonjs';
-import { uglify } from 'rollup-plugin-uglify'
+import commonjs from '@rollup/plugin-commonjs'
 import postcss from 'rollup-plugin-postcss'
 import { terser } from 'rollup-plugin-terser'
 
@@ -17,8 +16,7 @@ const config = {
         }),
         nodeResolve(),
         commonjs(),
-        terser(),
-        uglify()
+        terser()
     ],
     output: {
         format: 'umd',

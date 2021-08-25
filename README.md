@@ -34,15 +34,15 @@ This repo comes with a react app for development purposes. To get started, open 
 ### Link the component to the app
 ```
 cd ./component
-yarn link
+npm link
 
 cd ..
-yarn link @kevinorriss/calculator
+npm link @kevinorriss/calculator
 ```
 
 ### Start the app
 ```
-yarn start
+npm start
 ```
 
 ### Start the rollup watcher
@@ -55,7 +55,7 @@ Whenever you make a change to the component code, the react app will update.
 
 ## Tests
 ```
-yarn test
+npm test
 ```
 
 This project uses Jest and Enzyme for its unit tests, simply run the above code to run the test suites.

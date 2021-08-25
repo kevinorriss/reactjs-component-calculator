@@ -1,6 +1,6 @@
 {
   "name": "@kevinorriss/calculator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple calculator component with the basic operations",
   "main": "build/calculator.min.js",
   "scripts": {
@@ -27,7 +27,10 @@
     "postcss": "^8.2.13",
     "rollup": "^2.46.0",
     "rollup-plugin-postcss": "^4.0.0",
-    "rollup-plugin-terser": "^7.0.2",
-    "rollup-plugin-uglify": "^5.0.2"
+    "rollup-plugin-terser": "^7.0.2"
+  },
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^16.14.0"
   }
 }
